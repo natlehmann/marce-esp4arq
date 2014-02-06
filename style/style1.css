@@ -1,0 +1,447 @@
+@charset "utf-8";
+@CHARSET "ISO-8859-1";
+
+
+/*font especial*/
+
+@font-face {
+    font-family: 'HelveticaNeueMedium'; /*nombre*/
+    src: url('../fonts/HelveticaNeueMedium.eot');
+    src: url('../fonts/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('../fonts/HelveticaNeueMedium.woff') format('woff'),
+         url('../fonts/HelveticaNeueMedium.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueMedium.svg#HelveticaNeueMedium') format('svg');
+	 src: url('../fonts/HelveticaNeueMedium.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeue'; /*nombre*/
+    src: url('HelveticaNeue.eot');
+    src: url('HelveticaNeue.eot?#iefix') format('embedded-opentype'), /*para qeu funcione el ie*/
+         url('HelveticaNeue.woff') format('woff'),
+         url('HelveticaNeue.ttf') format('truetype'),
+         url('HelveticaNeue.svg#HelveticaNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLight';
+    src: url('HelveticaNeueLight.eot');
+    src: url('HelveticaNeueLight.eot?#iefix') format('embedded-opentype'),
+         url('HelveticaNeueLight.woff') format('woff'),
+         url('HelveticaNeueLight.ttf') format('truetype'),
+         url('HelveticaNeueLight.svg#HelveticaNeueLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    overflow: hidden;
+		color: #4D4B4C;
+}
+
+#contenedorIndex{
+    width: 792px;
+	 margin: 0 auto;
+	     margin-top: 11%;
+}
+
+#contenedor{
+    width: 792px;
+	 margin: 0 auto;
+	     margin-top: 5%;
+}
+ 
+#contenido{
+	   height: 500px;
+}
+
+#contenidosinFondo{
+	   height: 950px;
+}
+
+#logo{
+    text-align: left;
+}
+
+#logoInt{
+    text-align: left;
+}
+
+#arquitectura{
+	text-align:right;
+}
+
+#menu{
+	text-align:right;
+	float:right;
+    margin-top: -23px;
+}
+
+#button { padding: 0;
+border-left:1px solid #6D6E71;
+ }
+
+#button li { display: inline; 
+border-right:1px solid #6D6E71; 
+ }
+
+#button li a {     font-family: HelveticaNeueMedium, Arial;
+    font-size: 12px;
+    padding: 12px;
+    text-decoration: none;
+	color: #4D4B4C;
+ }
+
+#button li a:hover {     font-family: HelveticaNeueMedium, Arial;
+    font-size: 12px;
+    padding: 12px;
+    text-decoration: none; 	color: #8DC63F; }
+
+#pie  { 
+font-family: HelveticaNeueLight, Arial;
+    font-size: 10px;
+	    clear: both;
+ }
+
+#pie li { display: inline; 
+    padding-right: 10px;
+
+ }
+ 
+ #pie li a {     font-family: HelveticaNeueLight, Arial;
+    font-size: 10px;
+    text-decoration: none;
+	font-weight:bold;
+		color: #4D4B4C;
+	 }
+	 
+	  #pie li a:hover {     color: #8DC63F;
+	 }
+
+.pieIzq{
+    float: left;
+}
+
+.pieIzq img{
+border-left:1px solid #6D6E71;
+    padding-left: 10px;
+}
+
+.pieDer{
+    float: right;
+}
+
+
+.contenidoInterno{
+    background-color: #F1592B;
+    color: #FFFFFF;
+    height: 423px;
+    opacity: 0.87;
+    position: relative;
+    top: -443px;
+    visibility: visible;
+    width: 396px;
+    z-index: 1;
+   -moz-opacity: .87;
+   filter:alpha(opacity=87);
+}
+
+.contenidoInternoTurqueza{
+    background-color: #49A6DC;
+    color: #FFFFFF;
+    height: 423px;
+    opacity: 0.87;
+    position: relative;
+    top: -443px;
+    visibility: visible;
+    width: 396px;
+    z-index: 1;
+   -moz-opacity: .87;
+   filter:alpha(opacity=87);
+}
+
+
+.contenidoInternoAmarillo{
+    background-color: #D7E027;
+    color: #FFFFFF;
+    height: 423px;
+    opacity: 0.87;
+    position: relative;
+    top: -443px;
+    visibility: visible;
+    width: 396px;
+    z-index: 1;
+   -moz-opacity: .87;
+   filter:alpha(opacity=87);
+}
+
+.contenidoInternoRosa{
+    background-color: #EE3672;
+    color: #FFFFFF;
+    height: 423px;
+    opacity: 0.87;
+    position: relative;
+    top: -443px;
+    visibility: visible;
+    width: 396px;
+    z-index: 1;
+   -moz-opacity: .87;
+   filter:alpha(opacity=87);
+}
+
+.contenidoInternoCeleste{
+    background-color: #6AC6AE;
+    color: #FFFFFF;
+    height: 423px;
+    opacity: 0.87;
+    position: relative;
+    top: -443px;
+    visibility: visible;
+    width: 396px;
+    z-index: 1;
+   -moz-opacity: .87;
+   filter:alpha(opacity=87);
+}
+
+.contenidoInternoVerde{
+    background-color: #8DC640;
+    color: #FFFFFF;
+    height: 424px;
+    position: relative;
+    top: -443px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.titulo{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	font-family: HelveticaNeueMedium;
+	font-size: 20px;
+	margin-left: 40px;
+	padding-bottom: 15px;
+	padding-top: 15%;
+	width: 310px;
+	float: left;
+	color: #FFF;
+	    margin-bottom: 20px;
+}
+
+.tituloquienes{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: HelveticaNeueMedium;
+    font-size: 24px;
+    margin-left: 40px;
+    padding-bottom: 15px;
+    padding-top: 19%;
+    width: 710px;
+	    float: left;
+}
+
+
+.descripcion {
+    margin-left: 31px;
+    padding-top: 10px;
+    width: 310px;
+	font-family: HelveticaNeueMedium;
+    font-size: 13px;
+}
+
+.descripcion ul{
+list-style-type: none;
+padding: 0px;
+margin: 0px; 
+   margin:0;
+   padding-left: 1.5em;
+   line-height: 1.5em;
+}
+
+.descripcion ul li{
+
+list-style-image: url(../images/bullets.png.);
+}
+
+
+.resaltado{
+	color:#4D4B4C;
+}
+
+
+
+
+/*-------quienes-------*/
+
+.descripcionQuienes{
+    margin-left: 40px;
+}
+
+
+.contenidoInternoQuienes{
+    background-color: #6AC6AE;
+    color: #FFFFFF;
+    height: 424px;
+    position: relative;
+    top: -443px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#quienesFoto{
+    float: right;
+    margin-right: 42px;
+    margin-top: -160px;
+}
+
+.columnaInz{
+	font-family: HelveticaNeueMedium;
+	font-size: 12px;
+	float:left;
+	width: 200px;
+}
+
+.columna{
+    font-family: HelveticaNeueMedium;
+    font-size: 12px;
+    margin-left: 250px;
+    width: 200px;
+}
+
+.columnaDer{
+    float: right;
+    font-family: HelveticaNeueMedium;
+    font-size: 12px;
+    margin-right: 40px;
+    width: 200px;
+}
+
+
+/*--------------------------------------galeria--------------------------------------*/
+
+.scroll {
+    height: 423px;
+    margin-top: -443px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 508px;
+    position: relative;
+}
+
+.galeria{
+    float: left;
+    overflow: auto;
+    position: relative;
+    width: 6000px;
+}
+
+
+.galeria img{
+	margin-right:30px;
+	float:left;
+}
+
+/*--------------------------------------submenu--------------------------------------*/
+
+ /* el menú en si mismo */
+  .mi-menu  {
+    list-style-type: none;
+    margin: 0 auto; /* si queremos centrarlo */
+    padding: 0;
+    /* la altura y su ancho dependerán de los textos */
+    height: 40px; 
+	    text-align: left;
+  }
+
+  /* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
+  .mi-menu  br { display:none; }
+
+  /* cada item del menu */
+  .mi-menu  li {
+    display: block;
+    float: left; /* la lista se ve horizontal */
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .mi-menu li a {
+    border-left: 1px solid #666;
+    color: #EEE;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    padding: 0 14px;
+    margin: 6px 0;
+    text-decoration: none;
+    /* animamos el cambio de color de los textos */
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+	    color: #4D4B4C;
+  }
+  /* eliminamos los bordes del primer y el último */
+  .mi-menu li:first-child a { /*border-left: none; */}
+  .mi-menu li:last-child a{ /*border-right: none;*/border-right: 1px solid #666666; }
+  /* efecto hover cambia el color */
+  .mi-menu li:hover > a { color: #8DC63F; }
+
+  /* los submenús */
+  .mi-menu ul {
+    left: 0;
+    margin: 0;
+    opacity: 0; /* no son visibles */
+    position: absolute;
+    top: 40px; /* se ubican debajo del enlace principal */
+    /* el color de fondo */
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+
+    /* animamos su visibildiad */
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+		margin-top: 10px;
+  }
+  /* son visibes al poner el cursor encima */
+  .mi-menu li:hover > ul { opacity: 1; }
+
+   /* cada un ode los items de los submenús */
+  .mi-menu ul li {
+    height: 0; /* no son visibles */
+    overflow: hidden;
+    padding: 0;
+    /* animamos su visibildiad */
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+	margin-left:-30px;
+  }
+  .mi-menu li:hover > ul li {
+    height: 30px; /* los mostramos */
+    overflow: visible;
+    padding: 0;
+  }
+  .mi-menu ul li a {
+    border: none;
+    /*border-bottom: 1px solid #111;*/
+    margin: 0;
+    /* el ancho dependerá de los textos a utilizar */
+    padding: 5px 20px;
+    width: 150px;
+  }
+  /* el último n otiene un borde */
+  .mi-menu ul li:last-child a { border: none; }
