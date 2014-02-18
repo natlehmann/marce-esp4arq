@@ -791,8 +791,8 @@ font-family: GothamRnd-Medium, helvetica, verdana, arial, sans-serif;
     color: #EEE;
     display: block;
     font-family: arial;
-    font-size: 12px;
-    padding: 0 12.5px;
+    font-size: 13px;
+    padding: 0 8.6px;
     margin: 6px 0;
     text-decoration: none;
     /* animamos el cambio de color de los textos */
@@ -842,7 +842,7 @@ font-family: GothamRnd-Medium, helvetica, verdana, arial, sans-serif;
     -o-transition: height .25s ease .1s;
     -ms-transition: height .25s ease .1s;
     transition: height .25s ease .1s;
-	margin-left:-30px;
+	margin-left:-45px;
   }
   .mi-menu li:hover > ul li {
     height: 30px; /* los mostramos */
@@ -855,7 +855,7 @@ font-family: GothamRnd-Medium, helvetica, verdana, arial, sans-serif;
     margin: 0;
     /* el ancho dependerá de los textos a utilizar */
     padding: 5px 20px;
-    width: 150px;
+    width: 160px;
   }
   /* el último n otiene un borde */
   .mi-menu ul li:last-child a { border: none; }
@@ -886,6 +886,7 @@ input, textarea {
     margin-top: 5px;
     padding: 5px;
     width: 350px;
+	   font-family: GothamRnd-Light,helvetica,verdana,arial,sans-serif;
 }
  
 textarea {
