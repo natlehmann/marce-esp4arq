@@ -12,8 +12,9 @@ $titulo = 'ASUNTO DEL MENSAJE';
 $header = 'From: ' . $email;
 $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 ?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es-es">
-    <head>
+<html>
+<head>
+	<meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style/style.css" /> 
 
     <title>espacio4arq</title>
