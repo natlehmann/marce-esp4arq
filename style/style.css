@@ -255,126 +255,104 @@ body {
 	z-index: 1;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInterno {
-		background-color: #F1592B;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
+.contenidoInterno {
+	background-color: #F1592B;
+	color: #FFFFFF;
+	height: 423px;
+	opacity: 0.87;
+	position: relative;
+	top: -443px;
+	visibility: visible;
+	width: 396px;
+	z-index: 1;
+	filter: alpha(opacity = 87); /* internet explorer */
+	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
+	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
+	opacity: 0.87; /* safari, chrome, opera */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
+	/*internet explorer 8*/
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoTurqueza {
-		background-color: #49A6DC;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
+.contenidoInternoTurqueza {
+	background-color: #49A6DC;
+	color: #FFFFFF;
+	height: 423px;
+	opacity: 0.87;
+	position: relative;
+	top: -443px;
+	visibility: visible;
+	width: 396px;
+	z-index: 1;
+	filter: alpha(opacity = 87); /* internet explorer */
+	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
+	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
+	opacity: 0.87; /* safari, chrome, opera */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
+	/*internet explorer 8*/
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoAmarillo {
-		background-color: #92278F;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
+.contenidoInternoAmarillo {
+	background-color: #92278F;
+	color: #FFFFFF;
+	height: 423px;
+	opacity: 0.87;
+	position: relative;
+	top: -443px;
+	visibility: visible;
+	width: 396px;
+	z-index: 1;
+	filter: alpha(opacity = 87); /* internet explorer */
+	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
+	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
+	opacity: 0.87; /* safari, chrome, opera */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
+	/*internet explorer 8*/
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoRosa {
-		background-color: #EE3672;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
+.contenidoInternoRosa {
+	background-color: #EE3672;
+	color: #FFFFFF;
+	height: 423px;
+	opacity: 0.87;
+	position: relative;
+	top: -443px;
+	visibility: visible;
+	width: 396px;
+	z-index: 1;
+	filter: alpha(opacity = 87); /* internet explorer */
+	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
+	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
+	opacity: 0.87; /* safari, chrome, opera */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
+	/*internet explorer 8*/
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoCeleste {
-		background-color: #6AC6AE;
-		color: #FFFFFF;
-		height: 423px;
-		opacity: 0.87;
-		position: relative;
-		top: -443px;
-		visibility: visible;
-		width: 396px;
-		z-index: 1;
-		/* -moz-opacity: .87;
-    filter:alpha(opacity=87);*/
-		filter: alpha(opacity = 87); /* internet explorer */
-		-khtml-opacity: 0.87; /* khtml, version anterior de safari */
-		-moz-opacity: 0.87; /* firefox, mozilla, netscape */
-		opacity: 0.87; /* safari, chrome, opera */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-		/*internet explorer 8*/
-	}
+.contenidoInternoCeleste {
+	background-color: #6AC6AE;
+	color: #FFFFFF;
+	height: 423px;
+	opacity: 0.87;
+	position: relative;
+	top: -443px;
+	visibility: visible;
+	width: 396px;
+	z-index: 1;
+	filter: alpha(opacity = 87); /* internet explorer */
+	-khtml-opacity: 0.87; /* khtml, version anterior de safari */
+	-moz-opacity: 0.87; /* firefox, mozilla, netscape */
+	opacity: 0.87; /* safari, chrome, opera */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
+	/*internet explorer 8*/
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.contenidoInternoVerde {
-		background-color: #8DC640;
-		color: #FFFFFF;
-		height: 423px;
-		position: relative;
-		top: 49px;
-		width: 100%;
-		z-index: 1;
-	}
+.contenidoInternoVerde {
+	background-color: #8DC640;
+	color: #FFFFFF;
+	height: 423px;
+	position: relative;
+	top: 49px;
+	width: 100%;
+	z-index: 1;
 }
 
 .titulo {
@@ -727,15 +705,15 @@ body {
 	margin-right: 30px;
 }
 
-@
--moz-document url-prefix () { .scroll { height:424px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	position: relative;
-	width: 792px;
-	padding-top: 50px;
-}
-
+@-moz-document url-prefix () { 
+	.scroll {
+		height: 424px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		position: relative;
+		width: 792px;
+		padding-top: 50px;
+	}
 }
 
 /*--------------------------------------submenu--------------------------------------*/
@@ -785,19 +763,15 @@ body {
 	font-family: GothamRnd-Medium, helvetica, verdana, arial, sans-serif;
 }
 /* eliminamos los bordes del primer y el último */
-.mi-menu li:first-child a { /*border-left: none; */
-	font-family: GothamRnd-Medium, helvetica, verdana, arial, sans-serif;
-	*/
+.mi-menu li:first-child a { 
 }
 
-.mi-menu li:last-child a { /*border-right: none;*/
+.mi-menu li:last-child a {
 	border-right: 1px solid #666666;
-	font-family: GothamRnd-Medium, helvetica, verdana, arial, sans-serif;
 }
 /* efecto hover cambia el color */
 .mi-menu li:hover>a {
 	color: #8DC63F;
-	font-family: GothamRnd-Medium, helvetica, verdana, arial, sans-serif;
 }
 
 /* los submenús */
@@ -806,9 +780,10 @@ body {
 	margin: 0;
 	opacity: 0; /* no son visibles */
 	position: absolute;
-	top: 39px; /* se ubican debajo del enlace principal */
+	top: 29px; /* se ubican debajo del enlace principal */
 	/* el color de fondo */
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+	background-color: #fff;
+	opacity: 0.8;
 	/* animamos su visibildiad */
 	-moz-transition: opacity .25s ease .1s;
 	-webkit-transition: opacity .25s ease .1s;
