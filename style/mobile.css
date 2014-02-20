@@ -1,3 +1,19 @@
-body {
-	background: red;
+#logo {
+	overflow: hidden;
+}
+
+#contenedorIndex {
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 20%;
+}
+
+
+#contenidoIndex {
+	margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+#contenidoIndex img {
+	width: 100%;
 }
