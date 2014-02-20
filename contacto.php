@@ -16,6 +16,8 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 <head>
 	<meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style/style.css" /> 
+        <link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 568px)" />
+	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 792px) and (orientation : portrait)" />
 
     <title>espacio4arq</title>
     </head>
