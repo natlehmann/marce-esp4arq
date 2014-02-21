@@ -1,3 +1,8 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
 #logo {
 	overflow: hidden;
 }
@@ -8,7 +13,6 @@
     margin-top: 20%;
 }
 
-
 #contenidoIndex {
 	margin-top: 1%;
     margin-bottom: 4%;
@@ -16,4 +20,44 @@
 
 #contenidoIndex img {
 	width: 100%;
+}
+
+
+#contenedor {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+}
+
+#logoInt,
+#menu,
+#pie {
+	display: none;
+}
+
+#contenido img:first-child {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+}
+
+.contenidoInternoTurqueza .titulo {
+	position: absolute;
+	height: 30px;
+	width: 100%;
+	background-color: #49A6DC;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+}
+
+.contenidoInternoTurqueza {
+	background-color: #fff;
 }
