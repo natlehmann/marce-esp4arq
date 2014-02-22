@@ -48,7 +48,9 @@ body {
 .contenidoInternoTurqueza .titulo,
 .mobile .titulo,
 .contenidoInterno .titulo,
-.contenidoInternoQuienes .tituloquienes {
+.contenidoInternoQuienes .tituloquienes,
+.contenidoInternoAmarillo .titulo,
+#contenido .subtitulo {
 	position: absolute;
 	height: 30px;
 	width: 100%;
@@ -60,6 +62,13 @@ body {
 	left: 0px;
 	padding: 5px;
 	padding-left: 30px;
+}
+
+#contenido .subtitulo {
+	top: 40px;
+	display: block;
+	font-family: GothamRnd-Medium,helvetica,verdana,arial,sans-serif;
+	font-size: 26px;
 }
 
 .contenidoInternoTurqueza .titulo {
@@ -74,13 +83,29 @@ body {
 	background-color: #6AC6AE;
 }
 
-.mobile .titulo {
+.contenidoInternoAmarillo .titulo,
+.contenidoInternoAmarillo .subtitulo {
+	background-color: #92278F;
+	color: #fff;
+}
+
+.mobile .titulo,
+#contenido .contenidoInternoAmarillo #titulo-principal {
 	background-color: #4b4b4b;
+}
+
+#contenido .contenidoInternoAmarillo #titulo-principal .resaltadoGris {
+	color: #fff;
+}
+
+#contenido .contenidoInternoAmarillo #titulo-principal .noResaltado {
+	display: none;
 }
 
 .contenidoInternoTurqueza,
 .contenidoInterno,
-.contenidoInternoQuienes {
+.contenidoInternoQuienes,
+.contenidoInternoAmarillo {
 	background: none;
 	top: 0px;
 }

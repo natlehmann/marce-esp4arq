@@ -693,6 +693,7 @@ textarea {
 }
 
 .close-link,
-.mobile {
+.mobile,
+#contenido .subtitulo {
 	display: none;
 }
