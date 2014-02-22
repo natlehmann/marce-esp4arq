@@ -43,7 +43,8 @@ body {
 }
 
 .contenidoInternoTurqueza .titulo,
-.mobile .titulo {
+.mobile .titulo,
+.contenidoInterno .titulo {
 	position: absolute;
 	height: 30px;
 	width: 100%;
@@ -61,16 +62,22 @@ body {
 	background-color: #49A6DC;
 }
 
+.contenidoInterno .titulo {
+	background-color: #F1592B;
+}
+
 .mobile .titulo {
 	background-color: #4b4b4b;
 }
 
-.contenidoInternoTurqueza {
+.contenidoInternoTurqueza,
+.contenidoInterno {
 	background: none;
 	top: 0px;
 }
 
-.descripcionComo {
+.descripcionComo,
+.descripcion {
 	text-align: left;
 	width: 80%;
 	margin: 0px;
@@ -181,4 +188,8 @@ body {
 
 #slideShowImages {
 	margin-top: 0px;
+}
+
+.descripcion ul li {
+	background-image: url("../images/bullets-gray.png")
 }
