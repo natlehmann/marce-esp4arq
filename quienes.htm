@@ -1,70 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="style/style.css" /> 
-        <link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 568px)" />
-	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 792px) and (orientation : portrait)" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<link rel="stylesheet" href="style/mobile.css" type="text/css"
+	media="only screen and (max-width : 568px)" />
+<link rel="stylesheet" href="style/mobile.css" type="text/css"
+	media="only screen and (max-width : 792px) and (orientation : portrait)" />
 
-    <title>espacio4arq</title>
-    </head>
-    <body>
-         <div id="contenedor">
-                   <div id="logoInt"><a href="home.htm"><img src="images/logo.jpg" alt="" width="188" height="69" border="0" /></a></div>	                
-     <div id="menu"><img src="images/arquitecturaIndex.jpg" alt="" width="106" height="18" />
-                   <ul class="mi-menu">
-                   	<li><a href="que.htm">que</a></li>
-                    <li><a href="quienes.htm">quienes</a></li>
-                    <li><a href="como.htm">como</a></li>
-                    <li><a href="#">servicios</a>
-                        <ul>
-      <li><a href="consultoria.htm">Consultor&iacute;a</a></li>
-      <li><a href="space.htm">Space planning</a></li>
-      <li><a href="imagen.htm">Imagen corporativa</a></li>
-      <li><a href="proyecto.htm">Proyecto</a></li>
-      <li><a href="gerenciamiento.htm">Gerenciamiento de obra</a></li>
-      <li><a href="mudanzas.htm">Mudanzas Corporativas</a></li>
-    </ul>
-                    
-                    </li>
-                    <li><a href="galeria.htm">porfolio</a></li>
-                    <li><a href="contacto.htm">contacto</a></li>
-           </ul></div>  
-                   <div id="contenidosinFondo">
-                   		<div class="contenidoInternoQuienes">
-                       	  <div class="tituloquienes">quienes</div>
-                          <div id="quienesFoto"><img src="images/quienesChicas.jpg" alt="" width="355" height="138" /></div>
-                           <div class="descripcionQuienes"> 
-                      <div class="columnaInz"><br />
-                        <img src="images/bullets.png" alt="" width="7" height="16" /><span class="resaltado">Vanina Salmista</span>  I  Socia<br /><br />
-Arquitecta - UBA, con mas de 13 a&ntilde;os de experiencia.<br />
-Focalizada en <span class="resaltado">Arquitectura Farmac&eacute;utica,</span> en proyectos de <span class="resaltado">Laboratorios de Investigaci&oacute;n, Control de Calidad, producci&oacute;n y desarrollo.</span><br /><br />
-<a href="http://www.linkedin.com/pub/vanina-salmista/73/b91/411" target="_blank"><span style="text-align:right; font-size:10px;"><img src="images/liQuienes.jpg" alt="" width="14" height="14" />vaninasalmista</span></a></div>
-                      <div class="columnaDer"><br />
-                      <img src="images/bullets.png" alt="" width="7" height="16" /><span class="resaltado">Gabriela Cusa Fulgenzi</span> I  Socia<br /><br />
-Arquitecta - UBA, con mas de 15 a&ntilde;os de experiencia.<br />
-Especialista en <span class="resaltado">Arquitectura Corporativa y Comercial. </span><br />
-Focalizada en<span class="resaltado"> Space Planning, dise&ntilde;o y proyectos</span> de espacios corporativos.<br /><br /><br />
-<a href="http://www.linkedin.com/in/gabrielacusafulgenzi" target="_blank"><span style="text-align:right; font-size:10px;"><img src="images/liQuienes.jpg" alt="" width="14" height="14" />gabrielacusafulgenzi</span></a> </div>
-                          <div class="columna"><br /><img src="images/bullets.png" alt="" width="7" height="16" /><span class="resaltado">Paula Gonzalez</span>  I  Socia<br /><br />
-Arquitecta - UBA, con 15 a&ntilde;os de experiencia.<br />
-Especialista en <span class="resaltado">Arquitectura Corporativa.</span><br />
-Focalizada en <span class="resaltado">Gesti&oacute;n de proyectos y Gerenciamiento de Obra.</span><br /><br /><br />
-<a href="http://www.linkedin.com/profile/view?id=134240949&authType=NAME_SEARCH&authToken=t2qR&locale=es_ES&srchid=506895371390242976580&srchindex=3&srchtotal=193&trk=vsrp_people_res_photo&trkInfo=VSRPsearchId%3A506895371390242976580%2CVSRPtargetId%3A134240949%2CVSRPcmpt%3Aprimary" target="_blank"><span style="text-align:right; font-size:10px;"><img src="images/liQuienes.jpg" alt="" width="14" height="14" />paulagonzalez</span></a> </div>
-                            
-                          </div>
-                     </div> 
-                   </div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/ajustesMobile.js"></script>
+<script src="js/ajustesMobileQuienes.js"></script>
 
-  <div id="pieQuienes">
-                      <div class="pieIzq"><li><a href="mailto:info@espacio4arq.com.ar" target="_blank">info@espacio4arq.com.ar</a></li><li><a href="http://www.linkedin.com/company/espacio-cuatro-arquitectura"><img src="images/li.jpg" alt="" width="56" height="14" /></a></li> 
-                     <li><a href="#"><img src="images/fb.jpg" alt="" width="69" height="14" /></a></li>
-                     </div>
-                      <div class="pieDer">Copyright 2014 Espacio4arq. All rights reserved.</div>
-           </div>
-                   
-                           
-    </div>  
+<title>espacio4arq</title>
+</head>
+<body>
+	<div id="contenedor">
+		<div id="logoInt">
+			<a href="home.htm"><img src="images/logo.jpg" alt="" width="188"
+				height="69" border="0" /></a>
+		</div>
+		<div id="menu">
+			<img src="images/arquitecturaIndex.jpg" alt="" width="106"
+				height="18" />
+			<ul class="mi-menu">
+				<li><a href="que.htm">que</a></li>
+				<li><a href="quienes.htm">quienes</a></li>
+				<li><a href="como.htm">como</a></li>
+				<li><a href="#">servicios</a>
+					<ul>
+						<li><a href="consultoria.htm">Consultor&iacute;a</a></li>
+						<li><a href="space.htm">Space planning</a></li>
+						<li><a href="imagen.htm">Imagen corporativa</a></li>
+						<li><a href="proyecto.htm">Proyecto</a></li>
+						<li><a href="gerenciamiento.htm">Gerenciamiento de obra</a></li>
+						<li><a href="mudanzas.htm">Mudanzas Corporativas</a></li>
+					</ul></li>
+				<li><a href="galeria.htm">porfolio</a></li>
+				<li><a href="contacto.htm">contacto</a></li>
+			</ul>
+		</div>
+		<div id="contenidosinFondo">
+		
+			<div class="contenidoInternoQuienes">
+				
+				<div class="tituloquienes">quienes</div>
+				<div class="close-link"><a href="home.htm">X</a></div>
+				
+				<div id="quienesFoto">
+					<img src="images/quienesChicas.jpg" alt="" width="355" height="138" />
+				</div>
+				
+				<div class="descripcionQuienes">
+					<div class="columnaInz">
+						<br /> 
+						<img src="images/bullets.png" alt="" width="7" height="16" class="bulletWhite"/>
+						<img src="images/bullets-gray.png" alt="" width="7" height="16" class="bulletGray" style="display: none;"/>
+						
+						<span class="resaltado">Vanina Salmista</span> I Socia<br />
+						<br /> Arquitecta - UBA, con mas de 13 a&ntilde;os de
+						experiencia.<br /> Focalizada en <span class="resaltado">Arquitectura
+							Farmac&eacute;utica,</span> en proyectos de <span class="resaltado">Laboratorios
+							de Investigaci&oacute;n, Control de Calidad, producci&oacute;n y
+							desarrollo.</span><br />
+						<br /> 
+						<a href="http://www.linkedin.com/pub/vanina-salmista/73/b91/411"
+							target="_blank">
+							<span style="text-align: right; font-size: 10px;">
+								<img src="images/liQuienes.jpg" alt="" width="14" height="14" />
+								<span class="nombreLink">vaninasalmista</span>
+							</span>
+						</a>
+					</div>
+					<div class="columnaDer">
+						<br /> 
+						<img src="images/bullets.png" alt="" width="7" height="16" class="bulletWhite"/>
+						<img src="images/bullets-gray.png" alt="" width="7" height="16" class="bulletGray" style="display: none;"/>
+						
+						<span class="resaltado">Gabriela Cusa Fulgenzi</span> I Socia<br />
+						<br /> Arquitecta - UBA, con mas de 15 a&ntilde;os de
+						experiencia.<br /> Especialista en <span class="resaltado">Arquitectura
+							Corporativa y Comercial. </span><br /> Focalizada en<span
+							class="resaltado"> Space Planning, dise&ntilde;o y
+							proyectos</span> de espacios corporativos.<br />
+						<br />
+						<br /> 
+						<a href="http://www.linkedin.com/in/gabrielacusafulgenzi"
+							target="_blank">
+							<span style="text-align: right; font-size: 10px;">
+								<img src="images/liQuienes.jpg" alt="" width="14" height="14" />
+								<span class="nombreLink">gabrielacusafulgenzi</span>
+							</span>
+						</a>
+					</div>
+					<div class="columna">
+						<br />
+						<img src="images/bullets.png" alt="" width="7" height="16" class="bulletWhite"/>
+						<img src="images/bullets-gray.png" alt="" width="7" height="16" class="bulletGray" style="display: none;"/>
+						<span class="resaltado">Paula Gonzalez</span> I Socia<br />
+						<br /> Arquitecta - UBA, con 15 a&ntilde;os de experiencia.<br />
+						Especialista en <span class="resaltado">Arquitectura
+							Corporativa.</span><br /> Focalizada en <span class="resaltado">Gesti&oacute;n
+							de proyectos y Gerenciamiento de Obra.</span><br />
+						<br />
+						<br /> 
+						<a href="http://www.linkedin.com/profile/view?id=134240949&authType=NAME_SEARCH&authToken=t2qR&locale=es_ES&srchid=506895371390242976580&srchindex=3&srchtotal=193&trk=vsrp_people_res_photo&trkInfo=VSRPsearchId%3A506895371390242976580%2CVSRPtargetId%3A134240949%2CVSRPcmpt%3Aprimary"
+							target="_blank">
+							<span style="text-align: right; font-size: 10px;">
+								<img src="images/liQuienes.jpg" alt="" width="14" height="14" />
+								<span class="nombreLink">paulagonzalez</span>
+							</span>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="pieQuienes">
+			<div class="pieIzq">
+				<li><a href="mailto:info@espacio4arq.com.ar" target="_blank">info@espacio4arq.com.ar</a></li>
+				<li><a
+					href="http://www.linkedin.com/company/espacio-cuatro-arquitectura"><img
+						src="images/li.jpg" alt="" width="56" height="14" /></a></li>
+				<li><a href="#"><img src="images/fb.jpg" alt="" width="69"
+						height="14" /></a></li>
+			</div>
+			<div class="pieDer">Copyright 2014 Espacio4arq. All rights
+				reserved.</div>
+		</div>
+
+
+	</div>
 </body>
 </html>

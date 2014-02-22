@@ -33,18 +33,22 @@ body {
 #logoInt,
 #menu,
 #pie,
-#pieHome {
+#pieHome,
+#pieQuienes,
+.bulletWhite {
 	display: none;
 }
 
-#contenedorImagen img {
+#contenedorImagen img,
+#quienesFoto img {
 	width: 100%;
 	height: auto;
 }
 
 .contenidoInternoTurqueza .titulo,
 .mobile .titulo,
-.contenidoInterno .titulo {
+.contenidoInterno .titulo,
+.contenidoInternoQuienes .tituloquienes {
 	position: absolute;
 	height: 30px;
 	width: 100%;
@@ -66,12 +70,17 @@ body {
 	background-color: #F1592B;
 }
 
+.contenidoInternoQuienes .tituloquienes {
+	background-color: #6AC6AE;
+}
+
 .mobile .titulo {
 	background-color: #4b4b4b;
 }
 
 .contenidoInternoTurqueza,
-.contenidoInterno {
+.contenidoInterno,
+.contenidoInternoQuienes {
 	background: none;
 	top: 0px;
 }
@@ -93,6 +102,19 @@ body {
 	overflow-y: auto;
 }
 
+.descripcionQuienes {
+	text-align: left;
+	width: 80%;
+	margin: 0px;
+	color: #000;
+	padding-left: 10%;
+	padding-bottom: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	height: 60%;
+	overflow-y: auto;
+}
+
 
 .contenidoInterno, 
 .contenidoInternoTurqueza, 
@@ -108,7 +130,8 @@ body {
 }
 
 
-#contenido {
+#contenido,
+.contenidoInternoQuienes {
 	display: table;
 	position: relative;
 	padding-top: 35px;
@@ -116,11 +139,23 @@ body {
 	width: 100%;
 }
 
-#contenedorImagen {
+#contenedorImagen,
+#quienesFoto {
 	display: table-row;
 	height: 40%;
 	width: 100%;
 	overflow: hidden;
+}
+
+#quienesFoto {
+	position: inherit;
+    right: auto;
+    top: auto;
+}
+
+#quienesFoto img {
+	width: 130%;
+	margin-left: -15%;
 }
 
 .resaltado {
@@ -192,4 +227,37 @@ body {
 
 .descripcion ul li {
 	background-image: url("../images/bullets-gray.png")
+}
+
+#contenidosinFondo {
+	height: auto;
+}
+
+.columnaInz,
+.columnaDer,
+.columna {
+	float: none;
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	position: relative;
+}
+
+.columnaInz a,
+.columnaDer a,
+.columna a {
+	position: absolute;
+	top: 12px;
+	right: 0px;
+}
+
+.columnaInz a .nombreLink,
+.columnaDer a .nombreLink,
+.columna a .nombreLink {
+	display: none;
+}
+
+.columna {
+	padding-bottom: 20px;
 }
