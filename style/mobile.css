@@ -75,8 +75,10 @@ body {
 	background-color: #49A6DC;
 }
 
-.contenidoInterno .titulo {
+.contenidoInterno .titulo,
+.contenidoInterno .subtitulo {
 	background-color: #F1592B;
+	color: #fff;
 }
 
 .contenidoInternoQuienes .tituloquienes {
@@ -90,15 +92,15 @@ body {
 }
 
 .mobile .titulo,
-#contenido .contenidoInternoAmarillo #titulo-principal {
+#contenido #titulo-principal {
 	background-color: #4b4b4b;
 }
 
-#contenido .contenidoInternoAmarillo #titulo-principal .resaltadoGris {
+#contenido #titulo-principal .resaltadoGris {
 	color: #fff;
 }
 
-#contenido .contenidoInternoAmarillo #titulo-principal .noResaltado {
+#contenido #titulo-principal .noResaltado {
 	display: none;
 }
 
