@@ -8,6 +8,9 @@
 	media="only screen and (max-width : 568px)" />
 <link rel="stylesheet" href="style/mobile.css" type="text/css"
 	media="only screen and (max-width : 792px) and (orientation : portrait)" />
+	
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/ajustesMobile.js"></script>
 
 
 <title>espacio4arq</title>
@@ -39,10 +42,18 @@
 			</ul>
 		</div>
 		<div id="contenido">
-			<img src="images/como.jpg" alt="" width="792" height="448" />
+		
+<!-- 		CAMBIO -->
+			<div id="contenedorImagen">
+				<img src="images/como.jpg" alt="" width="792" height="448" />
+			</div>
+			
 			<div class="contenidoInternoTurqueza">
 				<div class="titulo">como</div>
-				<div class="descripcionComo">
+<!-- 		CAMBIO -->
+				<div class="close-link"><a href="home.htm">X</a></div>
+				
+				<div class="descripcionComo descripcionTexto">
 					Somos especialistas en Arquitectura Corporativa, Comercial e
 					Industria Farmac&eacute;utica, con mas de 15 a&ntilde;os de <span
 						class="resaltado">EXPERIENCIA. </span><br />
@@ -60,6 +71,7 @@
 					resultado que supere sus expectativas aportando <span
 						class="resaltado">CREATIVIDAD E INNOVACION</span> en todos los
 					procesos.
+
 				</div>
 			</div>
 		</div>
@@ -76,8 +88,6 @@
 			<div class="pieDer">Copyright 2014 Espacio4arq. All rights
 				reserved.</div>
 		</div>
-
-		<div style="clear:both;float:none;width:100%;height:1px;line-height:1px;"></div>
 
 	</div>
 </body>
