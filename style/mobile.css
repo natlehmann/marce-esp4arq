@@ -50,6 +50,7 @@ body {
 .contenidoInterno .titulo,
 .contenidoInternoQuienes .tituloquienes,
 .contenidoInternoAmarillo .titulo,
+.contenidoInternoRosa .titulo,
 #contenido .subtitulo {
 	position: absolute;
 	height: 30px;
@@ -62,6 +63,7 @@ body {
 	left: 0px;
 	padding: 5px;
 	padding-left: 30px;
+	color: #fff;
 }
 
 #contenido .subtitulo {
@@ -78,7 +80,6 @@ body {
 .contenidoInterno .titulo,
 .contenidoInterno .subtitulo {
 	background-color: #F1592B;
-	color: #fff;
 }
 
 .contenidoInternoQuienes .tituloquienes {
@@ -88,7 +89,11 @@ body {
 .contenidoInternoAmarillo .titulo,
 .contenidoInternoAmarillo .subtitulo {
 	background-color: #92278F;
-	color: #fff;
+}
+
+.contenidoInternoRosa .titulo,
+.contenidoInternoRosa .subtitulo {
+	background-color: #EE3672;
 }
 
 .mobile .titulo,
@@ -107,7 +112,8 @@ body {
 .contenidoInternoTurqueza,
 .contenidoInterno,
 .contenidoInternoQuienes,
-.contenidoInternoAmarillo {
+.contenidoInternoAmarillo,
+.contenidoInternoRosa {
 	background: none;
 	top: 0px;
 }
