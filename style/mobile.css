@@ -53,6 +53,7 @@ body {
 .contenidoInternoAmarillo .titulo,
 .contenidoInternoRosa .titulo,
 .contenidoInternoCeleste .titulo,
+.contenidoInternoVerde .tituloContacto,
 #contenido .subtitulo {
 	position: absolute;
 	height: 30px;
@@ -104,6 +105,10 @@ body {
 	background-color: #6AC6AE;
 }
 
+.contenidoInternoVerde .tituloContacto {
+	background-color: #8DC640;
+}
+
 .mobile .titulo,
 #contenido #titulo-principal {
 	background-color: #4b4b4b;
@@ -122,7 +127,8 @@ body {
 .contenidoInternoQuienes,
 .contenidoInternoAmarillo,
 .contenidoInternoRosa,
-.contenidoInternoCeleste {
+.contenidoInternoCeleste,
+.contenidoInternoVerde {
 	background: none;
 	top: 0px;
 }
@@ -169,6 +175,15 @@ body {
 	height: auto;
 	overflow: hidden;
 	vertical-align: bottom;
+}
+
+.contenidoInternoVerde {
+	position: inherit;
+	display: table;
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+	margin-top: 40px;
 }
 
 
@@ -314,4 +329,59 @@ body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	margin-top: 40px;
+}
+
+.contenidoInternoVerde .descripcionQuienes {
+	position: relative;
+}
+
+.contenidoInternoVerde .descripcionQuienes .columnaInz,
+.contenidoInternoVerde .descripcionQuienes .columnaDer {
+	width: 80%;
+}
+
+.contenidoInternoVerde .descripcionQuienes form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contenidoInternoVerde .descripcionQuienes form label {
+    display: inline;
+}
+
+
+.contenidoInternoVerde .descripcionQuienes form input, 
+.contenidoInternoVerde .descripcionQuienes form textarea {
+    border: 1px solid #ccc;
+    color: #666666;
+    font-family: GothamRnd-Light,helvetica,verdana,arial,sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenidoInternoVerde .descripcionQuienes .columnaDer {
+	position: absolute;
+	bottom: 80px;
+	left: 30px;
+}
+
+.contenidoInternoVerde .descripcionQuienes .columnaDer .link-linkedin,
+.contenidoInternoVerde .descripcionQuienes .columnaDer .link-facebook {
+	display: block;
+    line-height: 14px;
+    margin: 0;
+    padding: 14px;
+    position: absolute;
+    top: 16px;
+}
+
+.contenidoInternoVerde .descripcionQuienes .columnaDer .link-linkedin {
+	right: 55px;
+}
+
+.contenidoInternoVerde .descripcionQuienes .columnaDer .link-facebook {
+	right: 30px;
 }

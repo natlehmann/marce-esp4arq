@@ -694,6 +694,8 @@ textarea {
 
 .close-link,
 .mobile,
-#contenido .subtitulo {
+#contenido .subtitulo,
+.contenidoInternoVerde .descripcionQuienes .columnaDer .link-linkedin,
+.contenidoInternoVerde .descripcionQuienes .columnaDer .link-facebook {
 	display: none;
 }
