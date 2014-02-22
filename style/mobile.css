@@ -35,7 +35,8 @@ body {
 #pie,
 #pieHome,
 #pieQuienes,
-.bulletWhite {
+.bulletWhite,
+#piePorfolio {
 	display: none;
 }
 
@@ -301,4 +302,16 @@ body {
 
 .columna {
 	padding-bottom: 20px;
+}
+
+.galeria img {
+	float: none;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+
+.scroll {
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-top: 40px;
 }
