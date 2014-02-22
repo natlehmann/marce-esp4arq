@@ -32,7 +32,8 @@ body {
 
 #logoInt,
 #menu,
-#pie {
+#pie,
+#pieHome {
 	display: none;
 }
 
@@ -41,11 +42,11 @@ body {
 	height: auto;
 }
 
-.contenidoInternoTurqueza .titulo {
+.contenidoInternoTurqueza .titulo,
+.mobile .titulo {
 	position: absolute;
 	height: 30px;
 	width: 100%;
-	background-color: #49A6DC;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
@@ -53,7 +54,15 @@ body {
 	top: 0px;
 	left: 0px;
 	padding: 5px;
-	padding-left: 20px;
+	padding-left: 30px;
+}
+
+.contenidoInternoTurqueza .titulo {
+	background-color: #49A6DC;
+}
+
+.mobile .titulo {
+	background-color: #4b4b4b;
 }
 
 .contenidoInternoTurqueza {
@@ -96,6 +105,8 @@ body {
 	display: table;
 	position: relative;
 	padding-top: 35px;
+	height: 100%;
+	width: 100%;
 }
 
 #contenedorImagen {
@@ -123,4 +134,51 @@ body {
 	font-size: 26px;
 	text-decoration: none;
 	color: #fff;
+}
+
+#contenidoHome {
+	width: auto;
+	height: 360px;
+	position: absolute;
+	bottom: 0px;
+	z-index: -1;
+}
+
+.mobile {
+	display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.menuHomeMobile {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	left: 0px;
+}
+
+.menu-item {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: right;
+	border-bottom: 1px solid #bfbfbf;
+	height: 42px;
+}
+
+.menu-item:last-child {
+	border-bottom: 0px;
+}
+
+.menu-item a {
+	font-family: GothamRnd-Medium,helvetica,verdana,arial,sans-serif;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+	line-height: 42px;
+}
+
+#slideShowImages {
+	margin-top: 0px;
 }

@@ -1,18 +1,18 @@
 $( window ).load(function() {
 	
-	var altoContenido = $("#contenido").css("height");
+	var altoContenido = $("#contenedor").css("height");
 	
 	if ($(window).width() <= 568) {
-		$("#contenido").css("height", $(window).height() - 35 + "px");
+		$("#contenedor").css("height", $(window).height() + "px");
 	}
 
 	$(window).resize(
 		function() {
 			if ($(window).width() > 568) {
-				$("#contenido").css("height", altoContenido);
+				$("#contenedor").css("height", altoContenido);
 
 			} else {
-				$("#contenido").css("height", $(window).height() - 35 + "px");
+				$("#contenedor").css("height", $(window).height() + "px");
 			}
 
 	});
