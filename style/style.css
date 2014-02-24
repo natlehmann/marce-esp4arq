@@ -599,7 +599,7 @@ body {
 	z-index: 100;
 }
 /* son visibes al poner el cursor encima */
-.mi-menu li:hover>ul {
+.mi-menu li ul li:hover {
 	opacity: 1;
 }
 
