@@ -238,8 +238,6 @@ body {
 #contenidoHome {
 	width: auto;
 	height: 360px;
-	position: absolute;
-	bottom: 0px;
 	z-index: -1;
 }
 
@@ -263,7 +261,7 @@ body {
 	padding-right: 30px;
 	text-align: right;
 	border-bottom: 1px solid #bfbfbf;
-	height: 42px;
+	height: 32px;
 }
 
 .menu-item:last-child {
@@ -272,10 +270,9 @@ body {
 
 .menu-item a {
 	font-family: GothamRnd-Medium,helvetica,verdana,arial,sans-serif;
-	font-size: 26px;
+	font-size: 20px;
 	text-decoration: none;
 	color: #000;
-	line-height: 42px;
 }
 
 #slideShowImages {
@@ -384,4 +381,10 @@ body {
 
 .contenidoInternoVerde .descripcionQuienes .columnaDer .link-facebook {
 	right: 30px;
+}
+
+#slideShowImages {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
 }

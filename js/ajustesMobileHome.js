@@ -1,86 +1,75 @@
 $( window ).load(function() {
 	
 	if ($(window).width() <= 568) {
-		var altoImagen = $(window).height() - 50 + 40 - 42 * 6;
-		$("#contenidoHome").css("height", altoImagen  + "px");
 		
+		$("#contenidoHome").css("height", $(window).height() + "px");
 		
-		$("#slideShowImages").slidesjs({
-	        width: $(window).width(),
-	        height: altoImagen,
-	        navigation: {
-	            active: false,
-	            effect: "fade"
-	        },
-	        pagination: {
-	            active: false,
-	            effect: "fade"
-	        },
-	        play: {
-	            active: false,
-	            effect: "fade",
-	            interval: 2000,
-	            auto: true,
-	            swap: true,
-	            pauseOnHover: false,
-	            restartDelay: 2500
-	        },
-	        effect: {
-	            fade: {
-	              speed: 1200
-	            }
-	        }
-      });
+		$("#slideShowImages img").hide();
 		
-		
-	if ( $('#slideShowImages .slidesjs-container').height() == 0) {
-		$('#slideShowImages .slidesjs-container').css("height", altoImagen + "px");
-	}
-	
-	var anchoPantalla = $(window).width();
-	var nuevoAncho = anchoPantalla * 1.6;
-	
-	if ( $('#slideShowImages .slidesjs-container').width() == 0) {
-		$('#slideShowImages .slidesjs-container').css("width", nuevoAncho + "px");
-		$('#slideShowImages .slidesjs-container').css("left", 
-				((nuevoAncho - anchoPantalla) / 2) * (-1) + "px");
-	}
-	
-	if ( $('#slideShowImages .slidesjs-control').height() == 0) {
-		$('#slideShowImages .slidesjs-control').css("height", altoImagen + "px");
-	}
-	
-	if ( $('#slideShowImages .slidesjs-control').width() == 0) {
-		$('#slideShowImages .slidesjs-control').css("width", $(window).width() * 1.6 + "px");
-	}
+//		$("#slideShowImages img").css("width", $(window).width() + "px");
+//		$("#slideShowImages img").css("height", "auto");
+
+		initSlider( 30, 20, function(){
+			
+			$(".slidesjs-control").css("width", $(window).width() + "px");
+    		$(".slidesjs-control").css("height", "180px");
+    		
+    		$(".slidesjs-container").css("width", $(window).width() + "px");
+    		$(".slidesjs-container").css("height", "180px");
+    		
+    		$("#slideShowImages").css("margin-top", "0px");
+    		
+    		var altoItems = ($(window).height() - 60 - 180) / 6;
+    		$(".menuHomeMobile .menu-item").css("height", altoItems + "px");
+    		$(".menuHomeMobile .menu-item a").css("line-height", altoItems + "px");
+		} );
 	
 	
 	} else {
-		$("#slideShowImages").slidesjs({
-	        width: $("#contenidoHome").width(),
-	        height: $("#contenidoHome").height(),
-	        navigation: {
-	            active: false,
-	            effect: "fade"
-	        },
-	        pagination: {
-	            active: false,
-	            effect: "fade"
-	        },
-	        play: {
-	            active: false,
-	            effect: "fade",
-	            interval: 2000,
-	            auto: true,
-	            swap: true,
-	            pauseOnHover: false,
-	            restartDelay: 2500
-	        },
-	        effect: {
-	            fade: {
-	              speed: 1200
-	            }
-	        }
-      });
+		
+		initSlider( $("#contenidoHome").width(), $("#contenidoHome").height(), function(number) {
+			// Passes start slide number
+		} );
 	}
 });
+
+
+function initSlider(imgWidth, imgHeight, loadedCallback) {
+	
+	$("#slideShowImages").slidesjs({
+        width: imgWidth,
+        height: imgHeight,
+        navigation: {
+            active: false,
+            effect: "fade"
+        },
+        pagination: {
+            active: false,
+            effect: "fade"
+        },
+        play: {
+            active: false,
+            effect: "fade",
+            interval: 2000,
+            auto: true,
+            swap: true,
+            pauseOnHover: false,
+            restartDelay: 2500
+        },
+        effect: {
+            fade: {
+              speed: 1200
+            }
+        },
+        callback: {
+            loaded: loadedCallback,
+            
+            start: function(number) {
+              // Passes slide number at start of animation
+            },
+            complete: function(number) {
+              // Passes slide number at end of animation
+            }
+        }
+  });
+}
