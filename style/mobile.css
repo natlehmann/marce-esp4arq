@@ -28,6 +28,7 @@ body {
     padding: 0px;
     width: 100%;
     position: relative;
+    height: auto;
 }
 
 #logoInt,
@@ -143,11 +144,9 @@ body {
 .descripcionTexto {
 	color: #000;
 	padding-left: 10%;
-	padding-bottom: 10%;
+	padding-bottom: 50px;
 	padding-right: 10%;
 	padding-top: 2%;
-	height: 80%;
-	overflow-y: auto;
 }
 
 .descripcionQuienes {
@@ -169,12 +168,12 @@ body {
 .contenidoInternoAmarillo, 
 .contenidoInternoRosa, 
 .contenidoInternoCeleste {
-	position: inherit;
-	display: table-row;
+	position: static;
 	width: 100%;
 	height: auto;
-	overflow: hidden;
-	vertical-align: bottom;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-top: 30px;
 }
 
 .contenidoInternoVerde {
@@ -183,25 +182,24 @@ body {
 	width: 100%;
 	height: 100%;
 	vertical-align: bottom;
-	margin-top: 40px;
+	margin-top: 35px;
 }
 
 
 #contenido,
 .contenidoInternoQuienes {
-	display: table;
-	position: relative;
+	position: inherit;
 	padding-top: 35px;
-	height: 100%;
 	width: 100%;
+	height: auto;
 }
 
 #contenedorImagen,
-#quienesFoto {
-	display: table-row;
-	height: 40%;
+#quienesFoto,
+#contenedorImagen img,
+#quienesFoto img {
+	height: auto;
 	width: 100%;
-	overflow: hidden;
 }
 
 #quienesFoto {

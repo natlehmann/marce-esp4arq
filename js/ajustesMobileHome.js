@@ -8,8 +8,9 @@ $( window ).load(function() {
 		
 //		$("#slideShowImages img").css("width", $(window).width() + "px");
 //		$("#slideShowImages img").css("height", "auto");
+//		$("#slideShowImages img").css("top", "-5000px");
 
-		initSlider( 30, 20, function(){
+		initSlider( 1, 1, function(){
 			
 			$(".slidesjs-control").css("width", $(window).width() + "px");
     		$(".slidesjs-control").css("height", "180px");
