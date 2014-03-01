@@ -21,6 +21,7 @@ body {
 
 #contenidoIndex img {
 	width: 100%;
+	height: auto;
 }
 
 #contenedor {
@@ -358,9 +359,7 @@ body {
 }
 
 .contenidoInternoVerde .descripcionQuienes .columnaDer {
-	position: absolute;
-	bottom: 80px;
-	left: 30px;
+	position: relative;
 }
 
 .contenidoInternoVerde .descripcionQuienes .columnaDer .link-linkedin,
@@ -374,15 +373,23 @@ body {
 }
 
 .contenidoInternoVerde .descripcionQuienes .columnaDer .link-linkedin {
-	right: 55px;
+	right: 20px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 .contenidoInternoVerde .descripcionQuienes .columnaDer .link-facebook {
-	right: 30px;
+	right: 0px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 #slideShowImages {
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
+}
+
+.contenidoContacto .contenidoInternoVerde .descripcionQuienes .columnaInz {
+	min-height: 350px;
 }

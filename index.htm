@@ -13,14 +13,20 @@
 	    $(function(){
 		     if ($(window).width() <= 568) {
 		    	 $("#contenidoIndex img").attr("src", "images/texturaIndexMobile.jpg");
+		    	 $("#contenidoIndex img").attr("width", "100%");
+		    	 $("#contenidoIndex img").attr("height", "auto");
 		     }
 		     
 		     $(window).resize(function() {
 		         if ($(window).width() > 568) {
 		        	 $("#contenidoIndex img").attr("src", "images/texturaIndex.jpg");
+		        	 $("#contenidoIndex img").attr("width", "792");
+			    	 $("#contenidoIndex img").attr("height", "448");
 		         
 		         } else {
 		        	 $("#contenidoIndex img").attr("src", "images/texturaIndexMobile.jpg");
+		        	 $("#contenidoIndex img").attr("width", "100%");
+			    	 $("#contenidoIndex img").attr("height", "auto");
 		         }
 		         
 			});
