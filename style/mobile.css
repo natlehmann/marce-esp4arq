@@ -235,9 +235,10 @@ body {
 }
 
 #contenidoHome {
-	width: auto;
+/*	width: auto;
 	height: 360px;
-	z-index: -1;
+	z-index: -1;*/
+	visibility:hidden;
 }
 
 .mobile {
@@ -295,6 +296,7 @@ body {
 	height: auto;
 	margin: 0px;
 	position: relative;
+	    height: 30px;
 }
 
 .columnaInz a,
@@ -392,4 +394,18 @@ body {
 
 .contenidoContacto .contenidoInternoVerde .descripcionQuienes .columnaInz {
 	min-height: 350px;
+}
+
+.mobileOcutar {
+	visibility:hidden;
+
+}
+
+.columnaCentrada {
+	font-family: GothamRnd-Bold, helvetica, verdana, arial, sans-serif;
+	font-size: 14px;
+	float:left;
+	width: 90%;
+	height: 200px;
+	padding-left:80px;
 }

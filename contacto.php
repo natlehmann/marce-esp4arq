@@ -7,7 +7,7 @@
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
-$para = 'marcelaueno@hotmail.com';
+$para = 'info@espacio4arq.com.ar';
 $titulo = 'ASUNTO DEL MENSAJE';
 $header = 'From: ' . $email;
 $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
@@ -61,31 +61,23 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 				<div class="close-link"><a href="home.htm">X</a></div>
 
 				<div class="descripcionQuienes">
-					<div class="columnaInz">
+					<div class="columnaCentrada">
 						<br />
-						<br /> <img src="images/bullets.png" alt="" width="7" height="16" />
+						<br /> 
+						<img src="images/bullets.png" alt="" width="7" height="16" />
 						<?php
 if (mail($para, $titulo, $msjCorreo, $header)) {
 ?>
-						SU MENSAJE FUE ENVIADO EXITOSAMENTE. GRACIAS!
-						<?php
+						Gracias por contactarnos, nos comunicaremos a la brevedad
+					  <?php
 } else {
     ?>
-						SU MENSAJE no FUE ENVIADO. GRACIAS!
-						<?php
+						Su mensaje no fue enviado. Vuelva a intentar en unos minutos
+					  <?php
         }
 ?>
 
 					</div>
-					<div class="columnaDer">
-						<br />
-						<br />
-						<img src="images/bullets.png" alt="" width="7" height="16" />
-						<img src="images/bullets-gray.png" alt="" width="7" height="16" class="bulletGray" style="display: none;"/>
-						info@espacio4arq.com.ar
-					</div>
-
-
 				</div>
 			</div>
 		</div>

@@ -67,7 +67,7 @@ body {
 #contenedor {
 	width: 792px;
 	margin: 0 auto;
-	margin-top: 5.8%;
+	margin-top: 5.6%;
 	overflow: hidden;
 }
 
@@ -79,7 +79,7 @@ body {
 #contenido {
 	clear: both;
     float: none;
-    height: 460px;
+    height: 451px;
     position: relative;
     z-index: 1;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 #contenidoHome {
-	height: 448px;
+	height: 431px;
 	position: relative;
 	z-index: 1;
 	clear: both;
@@ -169,7 +169,7 @@ body {
 	height: 423px;
 	opacity: 0.87;
 	position: absolute;
-    top: 10px;
+    top: 0px;
     left: 0px;
 	width: 396px;
 	z-index: 1;
@@ -427,6 +427,15 @@ body {
 	border-left: 0;
 	border-right: 0;
 	border-top: 0;
+}
+
+.columnaCentrada {
+	font-family: GothamRnd-Bold, helvetica, verdana, arial, sans-serif;
+	font-size: 14px;
+	float:left;
+	width: 550px;
+	height: 200px;
+	padding-left:80px;
 }
 
 .columna {
